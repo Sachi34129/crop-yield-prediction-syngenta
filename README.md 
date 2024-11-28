@@ -1,0 +1,37 @@
+# Crop Yield Prediction Flask App
+
+## Overview
+This is a Flask application for predicting crop yields using machine learning.
+
+## Prerequisites
+- Docker
+- Docker Compose
+
+## Running the Application
+
+### Pull the Docker Image
+```bash
+docker pull sachith34129/crop-yield-prediction-flask:0.0.1.RELEASE
+```
+
+### Run the Container
+```bash
+docker run -p 5000:5000 sachith34129/crop-yield-prediction-flask:0.0.1.RELEASE
+```
+
+### Accessing the Application
+Open a web browser and navigate to:
+`http://localhost:5000`
+
+## Local Development
+1. Clone the repository
+2. Build the Docker image:
+```bash
+docker-compose up --build
+```
+
+## Technologies Used
+- Flask
+- Python
+- Scikit-learn
+- Docker
